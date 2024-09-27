@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>รายการสั่งอาหารของไรเดอร์</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table th, table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .btn-confirm {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-align: center;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .btn-confirm:hover {
+            background-color: #218838;
+        }
+
+        .order-details {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>รายการสั่งอาหารของไรเดอร์</h1>
+
+    <!-- ตารางแสดงรายละเอียดการสั่งอาหาร -->
+    <div class="order-details">
+        <h2>รหัสการสั่งซื้อ: 001</h2>
+        <table>
+            <tr>
+                <th>ชื่ออาหาร</th>
+                <th>จำนวน</th>
+                <th>วิธีการชำระเงิน</th>
+                <th>หมายเหตุ</th>
+            </tr>
+            <tr>
+                <td>ข้าวผัดหมู</td>
+                <td>1</td>
+                <td>เงินสด</td>
+                <td>ไม่ใส่เผ็ด</td>
+            </tr>
+            <tr>
+                <td>ส้มตำ</td>
+                <td>2</td>
+                <td>เงินสด</td>
+                <td>-</td>
+            </tr>
+        </table>
+
+        <h3>ที่อยู่สำหรับจัดส่ง:</h3>
+        <p>123/45 ถนนสาทร, แขวงยานนาวา, เขตสาทร, กรุงเทพฯ 10120</p>
+
+        <h3>เบอร์โทรศัพท์ลูกค้า:</h3>
+        <p>098-765-4321</p>
+
+        <a href="#" class="btn-confirm">ยืนยันการจัดส่ง</a>
+    </div>
+
+    <div class="order-details">
+        <h2>รหัสการสั่งซื้อ: 002</h2>
+        <table>
+            <tr>
+                <th>ชื่ออาหาร</th>
+                <th>จำนวน</th>
+                <th>วิธีการชำระเงิน</th>
+                <th>หมายเหตุ</th>
+            </tr>
+            <tr>
+                <td>ก๋วยเตี๋ยว</td>
+                <td>1</td>
+                <td>บัตรเครดิต</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>ข้าวผัดกุ้ง</td>
+                <td>1</td>
+                <td>บัตรเครดิต</td>
+                <td>-</td>
+            </tr>
+        </table>
+
+        <h3>ที่อยู่สำหรับจัดส่ง:</h3>
+        <p>678/99 ถนนพระราม 3, แขวงบางโพงพาง, เขตยานนาวา, กรุงเทพฯ 10120</p>
+
+        <h3>เบอร์โทรศัพท์ลูกค้า:</h3>
+        <p>081-234-5678</p>
+
+        <a href="#" class="btn-confirm">ยืนยันการจัดส่ง</a>
+    </div>
+
+</div>
+
+</body>
+</html>
+
